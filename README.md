@@ -167,11 +167,7 @@ function tm(value)
     minutes = value / 60
     minutes = math.floor(minutes)
     value = value - minutes * 60
-    
-    -- to Float
-    --value = value * 1.01
-    --value = value / 1.01
-    
+        
     return string.format("%02d:%02d:%02d", hours, minutes, value)
 end
 
