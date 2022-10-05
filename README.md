@@ -2,6 +2,11 @@
 Projects Listed as on DU Creators
 
 ## Tile Evaluation (LUA DEMO)
+
+### Setup: 1) Load code below on to a program board. 
+### Setup: 2) Link the program board to each Mining unit
+### Setup: 3) F click to activate (run program board)
+
 ### unit.onStart()
 ```lua
 system.print("----------------------------------------")
