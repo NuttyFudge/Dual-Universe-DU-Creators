@@ -111,11 +111,7 @@ function ov(id)
 end
 
 function rn(id)
-    
-    -- TODO: pull Display Info from system.
-    --info = system.getItem(id)
-    --dump(info)
-    
+     
     -- Return the name, or unknown
     name = r[id]
     if name ~= nil then
@@ -185,16 +181,13 @@ tile_value_rate = 0
 tile_harvest_value = 0
 system.print("----------------------------------------")
 for k,m in ipairs(machines) do
-    --m.startMaintain(1)
+
     name = m.getName()
     ore = m.getActiveOre()
     time = m.getRemainingTime()
     pid = m.getLastExtractingPlayerId()
     pname = system.getPlayerName(pid)
     harvest = m.getLastExtractedVolume()
-    -- debug
-    -- oids = player.getOrgsIds()
-    -- dump(oid)
     
     rate = m.getProductionRate()
     bonus = m.getAdjacencyBonus()
