@@ -1,7 +1,7 @@
 # Dual-Universe-DU-Creators
 Projects Listed as on DU Creators
 
-## Tile Evaluation 
+## Tile Evaluation (LUA DEMO)
 ### unit.onStart()
 ```lua
 system.print("----------------------------------------")
